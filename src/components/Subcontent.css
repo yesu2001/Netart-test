@@ -1,0 +1,13 @@
+.subcontent {
+	align-items: center;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.subcontent p {
+	margin: 10px 0;
+}
+
+span {
+	color:  red;
+}

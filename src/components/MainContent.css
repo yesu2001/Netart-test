@@ -1,0 +1,39 @@
+.main {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.left {
+	flex:  0.3;
+}
+
+.left>img {
+	width: 450px;
+}
+
+.right {
+	flex: 0.7;
+}
+
+ul {
+	position: relative;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+
+
+.right img {
+	margin: 10px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 385px) {
+  .main {
+  	flex-direction: column;
+  }
+  .left>img {
+  	width: 200px;
+  }
+}
+
